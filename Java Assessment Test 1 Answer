@@ -1,0 +1,34 @@
+import java.util.* ;
+
+class Player{
+   private int playerId ;
+   private String Name ; 
+   private int run ;
+   private String playerType ;
+   private String matchType ;
+
+  public Player(int playerId , String Name , int run , String playerType , String matchType){
+     this.playerId = playerId ;
+     this.Name = Name ;
+     this.run = run ;
+     this.playerType = playerType ; 
+     this.matchType = matchType ;
+  }
+
+  public  int getplayerId(){
+      return playerId ;
+  }
+  public  String getName(){
+      return Name ;
+  }
+  public  int getrun(){
+      return run ;
+  }
+  public  String getplayerType(){
+      return playerType ;
+  }
+  public  String getmatchType(){
+      return matchType ;
+  }
+  
+}
